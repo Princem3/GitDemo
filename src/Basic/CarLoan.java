@@ -32,6 +32,7 @@ public void contact()
 	System.out.println("car loan sicessss");
 }
 @Test
+// hello prince this is prit code
 public void registerD() 
 {
 	System.out.println("car loan registration");
