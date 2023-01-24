@@ -28,6 +28,8 @@ public void lastsuite() {
 public void contact() 
 {
 	System.out.println("car loan registration");
+	System.out.println("git code development ");
+	System.out.println("car loan sicessss");
 }
 @Test
 public void registerD() 
