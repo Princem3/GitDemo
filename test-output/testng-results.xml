@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="13" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-03T20:25:46 EST" name="Loan" finished-at="2023-01-03T20:25:46 EST" duration-ms="88">
+    <groups>
+      <group name="Smoke">
+        <method signature="DemoTestng1.demo()[pri:0, instance:Basic.DemoTestng1@49b0b76]" name="demo" class="Basic.DemoTestng1"/>
+        <method signature="Demotestvg2.personal()[pri:0, instance:Basic.Demotestvg2@3d680b5a]" name="personal" class="Basic.Demotestvg2"/>
+        <method signature="CarLoan.carloanlogin()[pri:0, instance:Basic.CarLoan@243c4f91]" name="carloanlogin" class="Basic.CarLoan"/>
+        <method signature="Homeloan.homeloanLogin()[pri:0, instance:Basic.Homeloan@291ae]" name="homeloanLogin" class="Basic.Homeloan"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-01-03T20:25:46 EST" name="Personal" finished-at="2023-01-03T20:25:46 EST" duration-ms="39">
+      <class name="Basic.Demotestvg2">
+        <test-method signature="personal()[pri:0, instance:Basic.Demotestvg2@3d680b5a]" started-at="2023-01-03T20:25:46 EST" name="personal" finished-at="2023-01-03T20:25:46 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personal -->
+      </class> <!-- Basic.Demotestvg2 -->
+      <class name="Basic.DemoTestng1">
+        <test-method is-config="true" signature="demo3()[pri:0, instance:Basic.DemoTestng1@49b0b76]" started-at="2023-01-03T20:25:46 EST" name="demo3" finished-at="2023-01-03T20:25:46 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+        <test-method is-config="true" signature="demo99()[pri:0, instance:Basic.DemoTestng1@49b0b76]" started-at="2023-01-03T20:25:46 EST" name="demo99" finished-at="2023-01-03T20:25:46 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo99 -->
+        <test-method signature="demo()[pri:0, instance:Basic.DemoTestng1@49b0b76]" started-at="2023-01-03T20:25:46 EST" name="demo" finished-at="2023-01-03T20:25:46 EST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="demo99()[pri:0, instance:Basic.DemoTestng1@49b0b76]" started-at="2023-01-03T20:25:46 EST" name="demo99" finished-at="2023-01-03T20:25:46 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo99 -->
+        <test-method signature="demo2(java.lang.String)[pri:0, instance:Basic.DemoTestng1@49b0b76]" started-at="2023-01-03T20:25:46 EST" name="demo2" finished-at="2023-01-03T20:25:46 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://jqueryui.com/droppable/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+        <test-method is-config="true" signature="demo99()[pri:0, instance:Basic.DemoTestng1@49b0b76]" started-at="2023-01-03T20:25:46 EST" name="demo99" finished-at="2023-01-03T20:25:46 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo99 -->
+        <test-method signature="demodata(java.lang.String,java.lang.String)[pri:0, instance:Basic.DemoTestng1@49b0b76]" started-at="2023-01-03T20:25:46 EST" name="demodata" data-provider="getData" finished-at="2023-01-03T20:25:46 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusetrname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demodata -->
+        <test-method signature="demodata(java.lang.String,java.lang.String)[pri:0, instance:Basic.DemoTestng1@49b0b76]" started-at="2023-01-03T20:25:46 EST" name="demodata" data-provider="getData" finished-at="2023-01-03T20:25:46 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demodata -->
+        <test-method is-config="true" signature="demo99()[pri:0, instance:Basic.DemoTestng1@49b0b76]" started-at="2023-01-03T20:25:46 EST" name="demo99" finished-at="2023-01-03T20:25:46 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo99 -->
+        <test-method is-config="true" signature="demo99()[pri:0, instance:Basic.DemoTestng1@49b0b76]" started-at="2023-01-03T20:25:46 EST" name="demo99" finished-at="2023-01-03T20:25:46 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo99 -->
+        <test-method signature="demodata(java.lang.String,java.lang.String)[pri:0, instance:Basic.DemoTestng1@49b0b76]" started-at="2023-01-03T20:25:46 EST" name="demodata" data-provider="getData" finished-at="2023-01-03T20:25:46 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demodata -->
+        <test-method is-config="true" signature="demo5()[pri:0, instance:Basic.DemoTestng1@49b0b76]" started-at="2023-01-03T20:25:46 EST" name="demo5" finished-at="2023-01-03T20:25:46 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo5 -->
+      </class> <!-- Basic.DemoTestng1 -->
+    </test> <!-- Personal -->
+    <test started-at="2023-01-03T20:25:46 EST" name="LoanHomeCar" finished-at="2023-01-03T20:25:46 EST" duration-ms="5">
+      <class name="Basic.Homeloan">
+        <test-method is-config="true" signature="number1()[pri:0, instance:Basic.Homeloan@291ae]" started-at="2023-01-03T20:25:46 EST" name="number1" finished-at="2023-01-03T20:25:46 EST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- number1 -->
+        <test-method signature="homeloanLogin()[pri:0, instance:Basic.Homeloan@291ae]" started-at="2023-01-03T20:25:46 EST" name="homeloanLogin" finished-at="2023-01-03T20:25:46 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeloanLogin -->
+      </class> <!-- Basic.Homeloan -->
+      <class name="Basic.CarLoan">
+        <test-method signature="carloanlogin()[pri:0, instance:Basic.CarLoan@243c4f91]" started-at="2023-01-03T20:25:46 EST" name="carloanlogin" finished-at="2023-01-03T20:25:46 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carloanlogin -->
+        <test-method signature="contact()[pri:0, instance:Basic.CarLoan@243c4f91]" started-at="2023-01-03T20:25:46 EST" name="contact" finished-at="2023-01-03T20:25:46 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contact -->
+        <test-method is-config="true" signature="lastsuite()[pri:0, instance:Basic.CarLoan@243c4f91]" started-at="2023-01-03T20:25:46 EST" name="lastsuite" finished-at="2023-01-03T20:25:46 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastsuite -->
+      </class> <!-- Basic.CarLoan -->
+    </test> <!-- LoanHomeCar -->
+  </suite> <!-- Loan -->
+</testng-results>

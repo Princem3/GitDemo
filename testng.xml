@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan">
+<listeners>
+<listener class-name="Basic.LsitenerDemo"></listener>
+</listeners>
+<parameter name="url" value="https://jqueryui.com/droppable/"></parameter>
+	<test thread-count="5" name="Personal">
+		<classes>
+			<class name="Basic.DemoTestng1"/>				
+			
+			<class name="Basic.Demotestvg2" />
+		</classes>
+	</test>
+	<test thread-count="5" name="LoanHomeCar">
+		<classes>
+			<class name="Basic.CarLoan">
+			<methods>
+			<exclude name="register.*"></exclude>
+			</methods>
+			</class>
+			<class name="Basic.Homeloan">
+				<methods>
+					<exclude name="registrationhomeloan"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>
