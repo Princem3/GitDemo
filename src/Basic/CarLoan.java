@@ -53,4 +53,12 @@ public void registerD()
 {
 	System.out.println("car loan registration");
 }
+
+@Test
+// hello this is done by prince today  mmm
+public void registerD1() 
+{
+	System.out.println("car loan registration by princ e new test in branch develop");
+}
+
 }
